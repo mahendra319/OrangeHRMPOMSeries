@@ -12,12 +12,12 @@
 		one test block is best practice -->
 
 	<listeners>
-		<!-- <listener
-			class-name="com.ohrm.listeners.ExtentReportListener" /> -->
+		<listener
+			class-name="com.ohrm.listeners.ExtentReportListener" />
 			<listener
 			class-name="com.ohrm.listeners.ScreenshotListenerTestNG" />
-			<!-- <listener
-			class-name="com.ohrm.listeners.TestAllureListener" /> -->
+			<listener
+			class-name="com.ohrm.listeners.TestAllureListener" />
 			<listener
 			class-name="com.ohrm.listeners.TesultsListener" />
 	</listeners>

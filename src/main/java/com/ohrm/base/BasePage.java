@@ -110,6 +110,10 @@ public class BasePage {
 					case "dev":
 						path = ".\\src\\main\\java\\com\\ohrm\\config\\config.dev.properties";
 						break;
+					case "stage":
+						path = ".\\src\\main\\java\\com\\ohrm\\config\\config.stage.properties";
+						break;	
+						
 					default:
 						System.out.println("Please enter correct enviroment");
 						break;

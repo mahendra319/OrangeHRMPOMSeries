@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="OrangeHRM Test Suite" thread-count="1"
+<suite name="OrangeHRM Test Suite" thread-count="3"
 	parallel="tests" verbose="1">
 
 	<!-- parallel="classes" OR parallel="methods" but parallel="tests" is the 
@@ -22,12 +22,12 @@
 			class-name="com.ohrm.listeners.TesultsListener" />
 	</listeners>
 
-	<!-- <test name="LoginPage Test">
-		<parameter name="browser" value="chrome"></parameter>
+	<test name="LoginPage Test">
+		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.ohrm.tests.LoginPageTest" />
 		</classes>
-	</test> -->
+	</test>
 
 	<test name="DashBoardPage Test">
 		<parameter name="browser" value="chrome"></parameter>
